@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    min-width: 500px;
+}
+
+.title {
+    background: #6943FF;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%
+}
+
+.title > h2 {
+    margin: 0;
+    padding-top: 33px;
+    color: white;
+}
+
+.title > div {
+
+}
+
+.title > div > h2 {
+    margin: 0;
+}
+
+.title > button {
+    margin-top: 15px;
+    border: none;
+    background: white;
+    padding: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 5px;
+}
+
+section {
+    background: #1F2937;
+    padding: 20px;
+}
+
+section > div {
+    background: #273549;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section > div > h3 {
+    margin: 0;
+    text-align: center;
+    color: #CCC1FF;
+}
+
+input {
+    display: block;
+    border: 2px solid #B295FF;
+    width: 20%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: auto;
+    margin-top: 12px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    background: none;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    color: white;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-align: center;
+}
